@@ -24,7 +24,7 @@ connectDB()
     console.log(`MONOGODB CONNECTION FAILED!!! `, error);
   });
 
-/* // 1st Approach
+/* // 1st Approach to make connection with mongoose
 import mongoose from "mongoose";
 import { DB_NAME } from "./constants";
 import express from express
